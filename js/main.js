@@ -75,6 +75,7 @@
 $(document).ready(function(){
 
 	// alert('See me!');
+	
 
 	$( "#tabs" ).tabs();
 	$("#resizable" ).resizable();
@@ -82,6 +83,11 @@ $(document).ready(function(){
 
 	$("#accordion").accordion();
 	$( "#datepicker" ).datepicker();
+	
+	$('.bxslider').bxSlider();
+	// $( "#slider" ).slider();
+	// $var options = { $AutoPlay: true };
+ //    $var jssor_slider1 = new $JssorSlider$('slider1_container', options);
 
 	// (function() {
  //    // run the currently selected effect

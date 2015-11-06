@@ -9,6 +9,15 @@
 		
 		
 		<title>Introduction to bootstrap</title>
+		<nav id="nav-bar">
+		<ul class="nav nav-tabs">
+		  <li role="presentation" class="active"><a href="#projects">My Interests</a></li>
+		  <li role="presentation"><a href="#academic">Academic Background</a></li>
+		  <li role="presentation"><a href="#aspiration">Aspirations</a></li>
+		   <li role="presentation"><a href="#contact">Contact Me</a></li>
+
+		</ul>
+		</nav>
 
 
 	</head>
@@ -17,15 +26,22 @@
 
 		<div class="container-fluid">
 			<section class="row text-center jumbotron" id="pitch">
+			<a href="#works" class="btn btn-success"><img src="./Harry-logo.png" alt="Harrison" layout="float: right" style="width:100px;height:100px;"/></a>
 				<h1>I build the future, and it's awesome!</h1>
-				<a href="#works" class="btn btn-success">Personal portfolio</a>
+				
 
-				<div id="date"><p><input type="text" id="datepicker"></p></div>
+
+				<div id="date"><p><input type="text" id="datepicker"></p>
+
+				</div>
 
 			</section>
 		</div>
 			
-		<div class="container">
+		<div id="projects"class="container">
+			<div class="text-center"> <h1> My Interests</h1>
+
+			</div>
 		
 			<section class="row">
 
@@ -66,61 +82,168 @@
 			</section>
 			
 			<section class="row">
+			<div class="text-center"> <h1> Professional Experience</h1>
+
+			</div>
 			<div id="resizable" class="ui-widget-content">
 				<div id="tabs">
 			  <ul>
 			    <li><a href="#tabs-1">Works</a></li>
 			    <li><a href="#tabs-2">Achievements</a></li>
-			    <li><a href="#tabs-3">Weakness</a></li>
+			    <li><a href="#tabs-3">Events</a></li>
+			    <li><a href="#tabs-4">Skills</a></li>
 			  </ul>
 			  
 			  <div id="tabs-1">
-			    <p>I was profoundly involved in charity whilst a student at the University of Nairobi. Giving back to the society has always been my slogan. Kinuthia, a close pal of mine, has been a part of the great commission. </p>
+			    <ul>
+			    		<li>Programmer</li>
+			    		<li>Systems Analyst</li>
+			    		<li>Web developer</li>
+			    		<li>Volunteer</li>
+	
+			    	</ul>
 			  </div>
 			  <div id="tabs-2">
-			    <p>I was fortunate to win an online maths contest with QA World Tour and got a free lunch ticket to the Laico Regency Hotel in Nairobi.</p>
+			    <ul>
+			    		<li>Best Stack Developer Award</li>
+			    		<li>Exemplary tutorial skills</li>
+			    		<li>Samsung Analytical Thinker of the year</li>
+			    	</ul>
 			  </div>
 			  <div id="tabs-3">
-			    <p>Well, everyone has a black side. It has always been hard for meto balance work with play </p>
+			    <ul>
+			    		<li>Break Poverty Hackathon</li>
+			    		<li>Coding trainer at Bomas of Kenya</li>
+			    		<li>Artons Health Hackathon</li>
+			    		
+			    	</ul>
+			  </div>
+			  <div id="tabs-4">
+			    	<ul>
+			    		<li>JavaScript</li>
+			    		<li>JQuery</li>
+			    		<li>HTML</li>
+			    		<li>CSS</li>
+			    		<li>Ruby</li>
+			    		<li>Communication</li>
+			    		<li>Interpersonal skills</li>
+			    	</ul>
 			  </div>
 			  </div>
 	</div> 
 
 
 			</section>
+			<section>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
 
-				<table id="t1" class="table table-bordered" style="width:100%">
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+
+				      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/University_of_Nairobi.JPG" alt="jssor" style="width:1200px;" height="1200px;">
+				      <div class="carousel-caption">
+				      	<h3>University of Nairobi</h3>
+				      	<p>Did Economics and Statistics</p>
+				      </div>
+
+				    </div>
+
+				    <div class="item">
+				      <img src="c2.jpg" alt="jssor"style="width:1200px;" height="1200px;">
+				      	<div class="carousel-caption">
+				      	<h3>St. Williams High School</h3>
+				      	<p>I was a library prefect</p>
+				      </div>
+				    </div>
+
+				    <div class="item">
+				      <img src="c3.jpg" alt="jssor"style="width:1200px;" height="1200px;">
+				      	<div class="carousel-caption">
+				      	<h3>Sports</h3>
+				      	<p>Football & Handball</p>
+				      </div>
+
+				    </div>
+
+				    <div class="item">
+				      <img src="c4.jpg" alt="jssor"style="width:1200px;" height="1200px;">
+				      	<div class="carousel-caption">
+				      	<h3>Contests</h3>
+				      	<p>Biology and Mathematics</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</section>
+			
+
+				<!--<table id="t1" class="table table-bordered" style="width:100%">
+					<div id="academic"class="text-center"> <h1> Academic Background</h1>
+
+					</div>
+
 					
-					<caption id="t2"><strong>Academic Background</strong></caption>
+				
 					 <tbody id="t3">
+					 <div id="slider">
 					<tr>
-						<td>University of Nairobi</td>
-						<td>Did Economics and Statistics</td>
+						<td></td>
+						<td></td>
 
 					</tr>
 					<tr>
-						<td>St. Williams High School</td>
-						<td>I was a library prefect</td>
+						<td></td>
+						<td></td>
 						
 					</tr>
 					<tr>
 						<td>Sports</td>
 						<td>I played football and handball</td>
 					</tr>
+					</div>
 					</tbody>
-				</table>
+
+				</table>-->
 
 			<footer class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-12">
+				<div id="contact"> <h1> Contact Me</h1>
+
+			</div>
 			
-</div>
-			<form class="col-sm-4" id="contact_form" action="/" method="post" > 
+
+			<form class="col-sm-6" id="contact_form" action="/" method="post" > 
 			  <div class="form-group">
 			    <label for="exampleInputEmail1">Email address</label>
 			    <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email">
 
 			      <label for="exampleInputPassword1">Full name</label>
 			    <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Text">
+
+			    <label for="exampleComment">Leave a comment</label>
+			    <textarea class="form-control" name="comment" rows="6" cols="5"></textarea>
+
+
+
+
 			  </div>
 		
 			  
@@ -128,7 +251,10 @@
 			</form>
 
 
-			<div class="col-sm-4">
+			<div class="col-sm-6">
+				<div id="aspiration"class="text-center"> <h1> Aspirations</h1>
+
+			</div>
 				
 				<div id="accordion">
 
@@ -144,10 +270,25 @@
 						
 					</div>
 					
+					
 				</div>
+				<div id="social">
+						<h3>Follow me on social media</h3>
+						<a href="https://www.facebook.com/harrison.kamau.71" target="_blank"><img src="./Facebook-128.png" style="width:50px;height:50px;"></a>
+						<a href="https://twitter.com/ChegeHarrison"target="_blank"><img src="./Twitter-128.png" style="width:50px;height:50px;"></a>
+						<a href="https://plus.google.com/u/0/115456723932889279601/about"target="_blank"><img src="./google-128.png"style="width:50px;height:50px;"></a>
+						<a href="https://accounts.google.com"target="_blank"><img src="./Gmail-copy.png"style="width:50px;height:50px;"></a>
+				
+					</div>
 			
 
 			</div>
+			</div>
+			<div class="text-center">
+				<h5>Copyright @ 2015. All rights reserved.</h5>
+				<p id="cell">Contacts: 0773 745 630 or email: kimharry@ymail.com</p>
+			</div>
+			
 				
 			</footer>
 			
@@ -157,5 +298,7 @@
 		<script src="js/jquery.validate.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script> 
+		<script src="/js/jquery.bxslider.min.js"></script>
+		<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 	</body>
 </html>
