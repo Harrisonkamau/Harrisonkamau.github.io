@@ -82,7 +82,7 @@ $(document).ready(function(){
 	// $( "#tab1" ).tabs();
 
 	$("#accordion").accordion();
-	$( "#datepicker" ).datepicker();
+	// $( "#datepicker" ).datepicker();
 	
 	$('.bxslider').bxSlider();
 	// $( "#slider" ).slider();
