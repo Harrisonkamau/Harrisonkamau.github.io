@@ -1,0 +1,41 @@
+
+
+#pitch {
+	background-image: url('background_images/work_place.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+container .jumbotron, 
+.container-fluid .jumbotron {
+	border-radius: 0px;
+}
+
+.error{
+	color: #f44336;
+}
+.col-sm-4 > a{
+	background-color: #76ff03;
+}
+#date{
+	color: #651fff;
+	float: right;
+}
+#t1{
+	width: 2px; 
+	border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    font: helvetica;
+
+}
+#t2{
+	float: right;
+}
+#t3{
+	 border: 1px solid;
+    width: 2px;
+   }
