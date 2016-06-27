@@ -5,7 +5,7 @@
 */
 
 #pitch {
-	background-image: url('background_images/work_place.jpg');
+	background-image: url('images/work_place.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -13,7 +13,7 @@
 
 
 
-container .jumbotron, 
+container .jumbotron,
 .container-fluid .jumbotron {
 	border-radius: 0px;
 }
@@ -29,7 +29,7 @@ container .jumbotron,
 	float: right;
 }
 #t1{
-	width: 2px; 
+	width: 2px;
 	border: 1px solid black;
     border-collapse: collapse;
     border-spacing: 5px;
@@ -46,7 +46,7 @@ container .jumbotron,
 
    #nav-bar{
    	background-color: #8bc34a;
-   	
+
    }
   #cell{
   	background-color: #ff9800;
